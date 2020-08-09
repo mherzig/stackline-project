@@ -1,0 +1,25 @@
+@import '../../assets/base';
+
+#sidebar {
+  @extend %panel;
+  box-sizing: border-box;
+  padding: 1em 0;
+  text-align: center;
+
+  img.product-image {
+    width: 50%;
+  }
+
+  h2 {
+    font-size: 150%;
+    margin: 1em 0 0;
+  }
+
+  p {
+    max-width: 80%;
+    margin: 0.5em auto 0;
+    font-size: 80%;
+    color: rgb(167, 169, 178);
+    line-height: 1.4;
+  }
+}

@@ -1,0 +1,54 @@
+@import '../../assets/base';
+
+#sales-table {
+  @extend %panel;
+  padding: 2em 0;
+  margin-top: 3em;
+
+  table {
+    width: 100%;
+
+    th {
+      color: rgb(119, 118, 142);
+      font-size: 80%;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: right;
+      padding: 0 0 0.5em 2em;
+
+      &:first-child {
+        text-align: left;
+        padding-left: 2em;
+        padding-right: 0;
+      }
+
+      span::after {
+        display: inline-block;
+        content: ' ';
+        width: 2em;
+        font-size: 80%;
+        text-align: center;
+      }
+
+      span.asc::after {
+        content: '\2227';
+      }
+
+      span.desc::after {
+        content: '\2228';
+      }
+    }
+
+    td {
+      color: rgb(172, 184, 207);
+      font-size: 80%;
+      border-top: 1px solid rgb(245, 246, 249);
+      text-align: right;
+      padding: 1em 2em 0.75em;
+
+      &:first-child {
+        text-align: left;
+      }
+    }
+  }
+}

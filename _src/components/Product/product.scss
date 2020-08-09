@@ -1,0 +1,14 @@
+main {
+  margin-top: 9em;
+  display: flex;
+
+  & > div {
+    flex: auto;
+    margin-right: 1.5em;
+
+    &:first-child {
+      flex: 0 0 20em;
+      margin-left: 1.5em;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import '../../assets/base';
+
+#sales-chart {
+  @extend %panel;
+  padding: 2em;
+
+  & > div {
+    width: 100%;
+    height: 20em;
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "stackline-proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "cross-env NODE_ENV=development parcel index.html",
+    "serve": "serve ./dist"
+  },
+  "author": "work@maxherzig.com",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "parcel-bundler": "^1.12.4",
+    "prop-types": "^15.7.2",
+    "redux-devtools-extension": "^2.13.8",
+    "regenerator-runtime": "^0.13.7",
+    "sass": "^1.26.10",
+    "serve": "^11.3.2"
+  },
+  "dependencies": {
+    "@nivo/line": "^0.62.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "react-table": "^7.5.0",
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3"
+  }
+}

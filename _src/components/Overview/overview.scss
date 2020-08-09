@@ -1,0 +1,10 @@
+@import '../../assets/base';
+
+#overview > div {
+  @extend %panel;
+  padding: 2em;
+  
+  & + div {
+    margin-top: 3em;
+  }
+}
