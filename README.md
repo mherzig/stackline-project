@@ -25,8 +25,11 @@ I ended up spending more like 4 &ndash; 5 hours on it. Why?
 
 - I probably spent too long trying to get accurate colors and sizes. If this was a "real" assignment, my assumption is I would be given a Sketch/Illustrator/Photoshop/etc. document _or_ a set of images and colors & dimensions so that would take much less time.
 - I did both the chart and the table instead of just one. I've done React, I've done charts, I've done sortable tables, but this is the first time I've done the combo so I wanted to experiment with both panels. It's just too enjoyable to quit sometimes :)
+- There was that extra details + review data, and it seemed like it was screaming for the ability to tab between the "Overview" and "Sales" views. Since it wasn't really part of the assessment I didn't bother to do much to that Overview info other than just throw it on the page.
 
-To see the final result, [view it in the browser here]() or run it locally:
+When you first load the page there is a button to click. This is simulating whatever you would have clicked or navigated to in order to get that specific product data.
+
+To see the final result, [view it in the browser here](https://mhslassessment.z5.web.core.windows.net/) or run it locally:
 
 1. Clone this repo
 1. `npm i` to install dependencies
